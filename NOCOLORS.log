@@ -1,0 +1,28 @@
+
+Linux Security Framework
+by dhaneshsivasamy07
+
+
+ [1;4mLEGEND[0m:
+  RED/YELLOW: 95% a PE vector
+  RED: You should take a look to it
+  LightCyan: Users with console
+  Blue: Users without console & mounted devs
+  Green: Common things (users, groups, SUID/SGID, mounts, .sh scripts, cronjobs) 
+  LightMagenta: Your username
+
+ Starting LSF. Caching Writable Folders...
+
+                                         ╔═══════════════════╗
+═════════════════════════════════════════╣ Basic information ╠═════════════════════════════════════════
+                                         ╚═══════════════════╝
+OS: Linux version 5.16.0-kali7-amd64 (devel@kali.org) (gcc-11 (Debian 11.2.0-19) 11.2.0, GNU ld (GNU Binutils for Debian) 2.38) #1 SMP PREEMPT Debian 5.16.18-1kali1 (2022-04-01)
+User & Groups: uid=1000(dnoscp) gid=1000(dnoscp) groups=1000(dnoscp),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),109(netdev),119(wireshark),121(bluetooth),133(scanner),141(kaboxer)
+Hostname: friday
+Writable folder: /dev/shm
+[+] /usr/bin/fping is available for network discovery (LSF can discover hosts, learn more with -h)
+[+] /usr/bin/nc is available for network discover & port scanning (LSF can discover hosts and scan ports, learn more with -h)
+[+] nmap is available for network discover & port scanning, you should use it yourself
+
+
+Caching directories 
